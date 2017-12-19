@@ -1,0 +1,13 @@
+---
+applications:
+- name: ewalletLoginR
+  host: ewalletLoginR
+  memory: 256M
+  services:
+  - ewalletlogin-mongo-db
+  env:
+    NODE_ENV: cloud-foundry
+declared-services:
+  ewalletlogin-mongo-db:
+    label: compose-for-mongodb
+    plan: Standard

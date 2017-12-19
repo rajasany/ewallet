@@ -1,0 +1,38 @@
+{
+  "name": "ewallet-login",
+  "version": "1.0.0",
+  "description": "Node Server Login Microservices",
+  "main": "app.js",
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "node app.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "dev": "nodemon app.js"
+  },
+   "keywords": [
+    "Node.js",
+    "mongo",
+    "angular",
+    "express",
+    "javascript",
+    "boilerplate"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cfenv": "1.0.x",
+    "dotenv": "^4.0.0",
+    "express": "*",
+    "mongoose": "*",
+    "mongodb": "*",
+    "mongoskin": "*"
+  },
+  "author": "Raja S",
+  "license": "ISC",
+  "devDependencies": {}
+}
